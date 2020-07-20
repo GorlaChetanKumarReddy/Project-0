@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46e0e948-3a51-40c6-910b-8f10250af0fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Project1TaskOnlineCart0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customers/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Customers/Customers_registration_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Customers/login_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Dispacher/Dispacher_Add_Products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Dispacher/Dispacher_Add_Products.html)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Product/Click_Buy_Product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Product/Customers_Show_Products.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="Project1TaskOnlineCart0" is-module-sdk="true">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="Project1TaskOnlineCart0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eO2frhBKxhEKlHtK8i9cRTIiYj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Django/Project80ScreenR" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django.naveen sir\Django Project Class\Project1TaskOnlineCart0\Customers" />
+      <recent name="E:\Django.naveen sir\Django Project Class\Project1TaskOnlineCart0\app1" />
+      <recent name="E:\Django.naveen sir\Django Project Class\Project1TaskOnlineCart0\templates" />
+      <recent name="E:\Django.naveen sir\Django Project Class\Project1TaskOnlineCart0\Project1TaskOnlineCart0" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Project1TaskOnlineCart0" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Project1TaskOnlineCart0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Project1TaskOnlineCart0.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46e0e948-3a51-40c6-910b-8f10250af0fd" name="Default Changelist" comment="" />
+      <created>1594178424638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594178424638</updated>
+      <workItem from="1594178430702" duration="713000" />
+      <workItem from="1594261940832" duration="1602000" />
+      <workItem from="1594265503686" duration="2816000" />
+      <workItem from="1594345598242" duration="3463000" />
+      <workItem from="1594357989880" duration="1472000" />
+      <workItem from="1594376297425" duration="1229000" />
+      <workItem from="1594716188401" duration="2848000" />
+      <workItem from="1594815247423" duration="68000" />
+      <workItem from="1594815365120" duration="291000" />
+      <workItem from="1594817922532" duration="24000" />
+      <workItem from="1594817958826" duration="13000" />
+      <workItem from="1594818044119" duration="3000" />
+      <workItem from="1595133759359" duration="894000" />
+      <workItem from="1595134778575" duration="601000" />
+      <workItem from="1595137754482" duration="10277000" />
+      <workItem from="1595153235347" duration="529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="0" key="#Project1TaskOnlineCart0" timestamp="1595133815352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#Project1TaskOnlineCart0/0.0.1536.824@0.0.1536.824" timestamp="1595133815352" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595138270881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595138270881" />
+    <state x="472" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595139261294">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595139261294" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594178502877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594178502877" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1595148900952">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595148900952" />
+    <state width="746" height="195" key="GridCell.Tab.0.bottom" timestamp="1595149379805">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595149379805" />
+    <state width="746" height="195" key="GridCell.Tab.0.center" timestamp="1595149379804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595149379804" />
+    <state width="746" height="195" key="GridCell.Tab.0.left" timestamp="1595149379804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595149379804" />
+    <state width="746" height="195" key="GridCell.Tab.0.right" timestamp="1595149379804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595149379804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595143994365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595143994365" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595143994365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595143994365" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595143994365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595143994365" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595143994365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595143994365" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1595133869057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595133869057" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595138232991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595138232991" />
+  </component>
+</project>

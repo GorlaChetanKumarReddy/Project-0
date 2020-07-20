@@ -1,0 +1,74 @@
+{% extends 'Stocker/Stocker_log_success.html' %}
+{% block Stl %}
+    <form action="{% url 'Delete_Search_idnumber' %}">
+    {% csrf_token %}
+    <table align="center" border="2">
+    <tr>
+        <th colspan="5" style="text-align: center">
+            Id
+        </th>
+    </tr>
+    <tr>
+        <th>
+             <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"></span>
+                    </div>
+                <br>
+                    <input type="text" class="form-control" placeholder="search id number" aria-label="" name="DeleteSearch" aria-describedby="basic-addon1">
+            </div>
+
+        </th>
+    </tr>
+      <tr>
+        <th colspan="5" style="text-align: center">
+            <button type="submit" class="btn btn-secondary btn-sm">search</button>
+        </th>
+    </tr>
+        {% if noidmes %}
+        <tr>
+            <th colspan="2" style="text-align: center">
+                {{ noidmes }}
+            </th>
+        </tr>
+        {% endif %}
+
+    </table>
+    </form>
+        {% if PrDetails %}
+    <table align="center" border="2">
+    <tr>
+        <th>Product Number</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quality</th>
+        <th>Add Date</th>
+    </tr>
+    {% for p in PrDetails %}
+        <tr>
+        <th>{{ p.Product_no }}</th>
+        <th>{{ p.Name }}</th>
+        <th>{{ p.Price }}</th>
+        <th>{{ p.Quality }}</th>
+        <th>{{ p.Add_Date }}</th>
+        </tr>
+    </table>
+            <table align="center" border="0">
+            <tr>
+                <th>
+                    <a href="{% url 'Deleted_Product' %}?DelProduct={{ p.Product_no }}" >Delete</a>
+                </th>
+            </tr>
+            </table>
+            {% endfor %}
+            {% endif %}
+    <table align="center" border="0">
+    <tr>
+        <th colspan="5" style="text-align: center">
+            {% if delm %}
+                {{ delm }}
+            {% endif %}
+        </th>
+    </tr>
+    </table>
+{% endblock %}

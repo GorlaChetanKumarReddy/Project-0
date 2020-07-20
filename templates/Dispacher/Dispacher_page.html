@@ -1,0 +1,58 @@
+{% extends 'Admin_log_in.html' %}
+{% block AdminCommonpage %}
+      <form action="{% url 'Dispacher_registers' %}" method="post">
+        {% csrf_token %}
+    <table align="center" border="2">
+    <tr>
+        <th colspan="5" style="text-align: center">
+           Add Dispacher
+        </th>
+    </tr>
+    <tr><th>{{ Dispacher_form.Name.label }}</th>
+    <th>{{ Dispacher_form.Name }}</th>
+    </tr>
+        <tr><th>{{ Dispacher_form.Contact_Number.label }}</th>
+        <th>{{ Dispacher_form.Contact_Number }}</th>
+        </tr>
+        <tr><th>{{ Dispacher_form.password.label }}</th>
+        <th>{{ Dispacher_form.password }}</th></tr>
+        <tr>
+            <th colspan="5" style="text-align: center">
+                <button type="submit" class="btn btn-secondary btn-sm">save</button>
+            </th>
+        </tr>
+
+    </table>
+      <table align="center" border="2">
+          <tr>
+              <th>
+                  <a href="{% url 'Display_Dispachers' %}">Display Dispachers</a>
+              </th>
+          </tr>
+      </table>
+    </form>
+    <table align="center" border="2">
+    <tr>
+        <th>id no</th>
+        <th>name</th>
+        <th>phone</th>
+        <th>password</th>
+        <th>delete</th>
+    </tr>
+    {% for i in Display %}
+    <tr><th>
+        <tr>-
+            <th>{{ i.idno }}</th>
+            <th>{{ i.Name }}</th>
+            <th>{{ i.Contact_Number }}</th>
+            <th>{{ i.password }}</th>
+    <th>
+       <a href="{% url 'delete_Dispacher' %}?delete_D={{ i.idno }}">
+            <button type="button">delete</button></a>
+    </th>
+        </tr>
+    </th>
+    {% endfor %}
+    </table>
+
+{% endblock %}

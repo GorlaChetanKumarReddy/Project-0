@@ -1,0 +1,26 @@
+{% extends 'common.html' %}
+{% block ccoman %}
+    <table align="center" border="2">
+        <tr>
+            <th>Name</th>
+            <th>price</th>
+            <th>Quality</th>
+            <th>Quantity</th>
+            <th>date</th>
+            <th>
+        </tr>
+    {% for i in prd %}
+        <tr>
+            <th>{{ i.Name }}</th>
+            <th>{{ i.Price }}</th>
+            <th>{{ i.Quality }}</th>
+            <th>{{ i.Quantity }}</th>
+            <th>{{ i.Add_Date }}</th>
+    {% endfor %}
+    <tr>
+        <th>
+
+        </th>
+    </tr>
+    </table>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'common.html' %}
+{% block ccoman %}
+    <table align="center" border="2">
+        <tr>
+            <th>Name</th>
+            <th>price</th>
+            <th>Quality</th>
+            <th>Quantity</th>
+            <th>date</th>
+            <th>
+        </tr>
+    {% for i in Products_list %}
+        <tr>
+            <th>{{ i.Name }}</th>
+            <th>{{ i.Price }}</th>
+            <th>{{ i.Quality }}</th>
+            <th>{{ i.Quantity }}</th>
+            <th>{{ i.Add_Date }}</th>
+            <th>
+                <a href="{% url 'Click_Buy_Product' %}?product={{ i.Product_no }}">buy</a></th>
+            </th>
+            </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

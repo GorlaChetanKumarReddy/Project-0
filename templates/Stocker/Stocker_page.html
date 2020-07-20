@@ -1,0 +1,66 @@
+{% extends 'Admin_log_in.html' %}
+{% block AdminCommonpage %}
+    <form action="{% url 'Add_Stocker' %}" method="post">
+    {% csrf_token %}
+    <table align="center" border="2">
+    <tr><th colspan="5" style="text-align: center">
+        Add Stocker
+    </th></tr>
+        <tr>
+            <th>{{ Stocker_register.name.label }}</th>
+            <th> {{ Stocker_register.name }}</th>
+         </th>
+    <tr>
+        <th>{{ Stocker_register.contact_Number.label }}</th>
+        <th>{{ Stocker_register.contact_Number }}</th>
+    </tr>
+    <tr>
+        <th>{{ Stocker_register.Password.label }}</th>
+        <th>{{ Stocker_register.Password }}</th>
+    </tr>
+
+        <tr><th colspan="5" style="text-align: center">
+            <button type="submit" class="btn btn-secondary btn-sm">save</button>
+        </th></tr>
+        {% if sav_message %}
+        <tr><th>{{ sav_message }}</th></tr>
+        {% endif %}
+        </table>
+    </form>
+
+    <table align="center" border="2">
+    <tr><th>
+        <a href="{% url 'Display_Stockers' %}" >all records</a>
+    </th></tr>
+    </table>
+{% if stocker_details %}
+    <table align="center" border="2">
+    <tr>
+        <br>
+        <br>
+        <br>
+        <th>id no</th>
+        <th>name</th>
+        <th>contact number</th>
+        <th>password</th>
+        <th>delete</th>
+    </tr>
+    {% endif %}
+    {% for i in stocker_details %}
+    <tr>
+        <th>{{ i.idn }}</th>
+        <th>{{ i.name }}</th>
+        <th>{{ i.contact_Number }}</th>
+        <th>{{ i.Password }}</th>
+        <th>
+            <a href="{% url 'Delete_Stocker' %}?delete_s={{ i.idn }}">
+                <input type="hidden" value="{{ i.idn }}">
+                <button type="button">delete</button>
+            </a>
+        </th>
+    </tr>
+    {% endfor %}
+    </table>
+
+
+{% endblock %}

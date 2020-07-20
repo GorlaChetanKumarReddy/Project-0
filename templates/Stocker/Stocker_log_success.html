@@ -1,0 +1,23 @@
+{% extends 'common.html' %}
+{% block comn %}
+
+
+<table class="table table-hover">
+  <thead>
+   <tr>
+      <th scope="row">1</th>
+       <td colspan="2"><a href="{% url 'Stocker_Add_Products' %}">Add Product</a></td>
+       <td><a href="{% url 'Delete_Product' %}"> Delete Product</a></td>
+    </tr>
+      <tr>
+      <th scope="row">2</th>
+          <td colspan="2"><a href="{% url 'Stocker_Change_Password' %}"> change password</a></td>
+          <td><a href="{% url 'home' %}"> log_out</a></td>
+    </tr>
+  </thead>
+  </tbody>
+</table>
+    {% block Stl %}
+
+    {% endblock %}
+{% endblock %}

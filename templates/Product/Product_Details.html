@@ -1,0 +1,56 @@
+{% extends 'common.html' %}
+{% block comn %}
+    <form action="{% url 'Stocker_Add_Products_save' %}" method="post">
+    {% csrf_token %}
+<table align="center" border="2">
+    <tr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <th colspan="2" style="text-align: center">
+            Add Products
+        </th>
+            {{ ProductForm }}
+       <tr>
+        <th colspan="5" style="text-align: center">
+            <button type="submit" class="btn btn-secondary btn-sm">save</button>
+        </th>
+    </tr>
+    <tr>
+        <th colspan="2" style="text-align: center">
+            {{ mes }}
+        </th>
+    </tr>
+
+</table>
+    <table align="center" border="2">
+        <tr>
+            <th colspan="5" style="text-align: center">
+                 <a href="{% url 'Show_All_Products' %}">show all products</a>
+            </th>
+        </tr>
+    {% if All_Products %}
+    <tr>
+        <th>Product_number</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quality</th>
+        <th>Add_Date</th>
+    </tr>
+            {% for p in All_Products %}
+        <tr>
+            <th>{{ p.Product_no }}</th>
+            <th>{{ p.Name }}</th>
+            <th>{{ p.Price }}</th>
+            <th>{{ p.Quality }}</th>
+            <th>{{ p.Add_Date }}</th>
+        </tr>
+
+            {% endfor %}
+        {% endif %}
+    </table>
+    </form>
+{% endblock %}

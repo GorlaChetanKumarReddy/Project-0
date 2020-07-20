@@ -1,0 +1,50 @@
+-{% extends 'common.html' %}
+{% block comn %}
+
+<html>
+<head>
+
+</head>
+<body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action="{% url 'Admin_log_in' %}" method="post">
+                    {% csrf_token %}
+        <table align="center" border="0">
+            <tr><th colspan="5" style="text-align: center">
+                    admin log_in
+            </th></tr>
+            <tr><br>
+                <th><br>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                <br>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" name="adminusername" aria-describedby="basic-addon1">
+            </div>
+
+               </th></tr>
+            <tr><th>
+                <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1"></span>
+                    </div>
+                <input type="password" class="form-control" placeholder="password" aria-label="Username"name="adminpassword" aria-describedby="basic-addon1">
+                    </div>
+                    </th></tr>
+                    <tr><th colspan="5" style="text-align: center">
+                    <button type="submit" class="btn btn-secondary btn-sm">log_in</button>
+                    </th></tr>
+            <tr>
+                <th colspan="2" style="text-align: center">{{ mess }}</th>
+            </tr>
+        </table>
+        </form>
+</body>
+</html>
+
+{% endblock %}
